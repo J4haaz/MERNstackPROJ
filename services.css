@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 720px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.schedule-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 117.02px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 2rem 0;
+}
+.map-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0; /* Add some space around the section */
+    background-color: #f4f4f4; 
+}
+
+.map-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 1127px; 
+    height: 321px; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Image Section */
+.map-image {
+    flex: 1.5; 
+    overflow: hidden;
+}
+
+.map-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/* Text Section */
+.map-text {
+    flex: 1; /
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #213981; 
+    color: #ffffff;
+}
+
+.map-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #28a745; 
+}
+
+.map-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd; 
+}
+
+.map-text span {
+    font-size: 0.9rem;
+    color: #aaa; 
+}
+.footer {
+    background-color: #003399; /* Dark blue */
+    color: #fff;
+    padding: 2rem 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right,
+.footer-ebook {
+    flex: 1 1 200px;
+}
+
+.footer h4 {
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #00ff00; /* Bright green */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-ebook .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-ebook input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-ebook button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #00ff00; /* Bright green */
+    color: #003399; /* Dark blue text for contrast */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-ebook button:hover {
+    background-color: #00cc00; /* Slightly darker green */
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 12px;
+    border-top: 1px solid #00ff00;
+    padding-top: 1rem;
+}
